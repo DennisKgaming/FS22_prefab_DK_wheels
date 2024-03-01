@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<wheel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../shared/xml/schema/wheel.xsd">
+    <brand>CONTINENTAL</brand>
+    <name>Conti Hybrid HD3</name>
+    <default>
+        <physics radius="0.443" width="0.285" mass="0.0799" tireType="street" frictionScale="1.60" maxLongStiffness="8" maxLatStiffness="100" maxLatStiffnessLoad="2"/>
+        <tire filename="wheels/tires/continental/contiHybridHD3/R19_5_contiHybridHD3.i3d" nodeLeft="2|0" nodeRight="2|0" maxDeformation="0.01" sideDeformOffset="0.996" isCareWheel="true" tireTrackAtlasIndex="4"/>
+        <outerRim filename="$data/shared/wheels/rims/rim001.i3d" node="0|0" widthAndDiam="17 19.5" scale="0.5 1 1"/>
+
+    </default>
+    <configurations>
+        <configuration id="dual">
+            <innerRim filename="-"/>
+        </configuration>
+    </configurations>
+</wheel>

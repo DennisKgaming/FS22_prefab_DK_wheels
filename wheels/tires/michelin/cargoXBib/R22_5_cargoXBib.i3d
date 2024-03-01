@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="R22_5_cargoXBib.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.4"/>
+  </Asset>
+
+  <Files>
+    <File fileId="3" filename="$data/shaders/vehicleShader.xml"/>
+    <File fileId="1" filename="cargoXBib_diff.dds"/>
+    <File fileId="2" filename="cargoXBib_normal.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="cargoXBib_mat356" materialId="5" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="R22_5_cargoXBib.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="cargoXBib_500_60R22_5" nodeId="15">
+        <TransformGroup name="lod" clipDistance="600" nodeId="16" lodDistance="0 25">
+          <Shape shapeId="1" name="lod0" nodeId="17" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="lod1" nodeId="18" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="cargoXBib_560_60R22_5" nodeId="19">
+        <TransformGroup name="lod" clipDistance="600" nodeId="20" lodDistance="0 25">
+          <Shape shapeId="3" name="lod0" nodeId="21" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="lod1" nodeId="22" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="cargoXBib_600_50R22_5" nodeId="23">
+        <TransformGroup name="lod" clipDistance="600" nodeId="24" lodDistance="0 25">
+          <Shape shapeId="5" name="lod0" nodeId="25" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="lod1" nodeId="26" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="cargoXBib_710_45R22_5" nodeId="27">
+        <TransformGroup name="lod" clipDistance="600" nodeId="28" lodDistance="0 25">
+          <Shape shapeId="7" name="lod0" nodeId="29" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="8" name="lod1" nodeId="30" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+  </Scene>
+
+</i3D>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="R32_machXbib.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.4"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="machXbib_normal.dds"/>
+    <File fileId="2" filename="machXbib_normal.png"/>
+    <File fileId="3" filename="$data/shaders/vehicleShader.xml"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="machXbib_mat371" materialId="6" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.463994 -0.9325 0.5 0.1"/>
+    </Material>
+    <Material name="machXbib_mat375" materialId="5" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.461014 -0.9105 0.5 0.1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="R32_machXbib.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="machXbib_650_75R32" nodeId="12">
+        <TransformGroup name="lod" clipDistance="600" nodeId="13" lodDistance="0 25">
+          <Shape shapeId="1" name="lod0" nodeId="14" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="lod1" nodeId="15" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="machXbib_680_75R32" nodeId="16">
+        <TransformGroup name="lod" clipDistance="600" nodeId="17" lodDistance="0 25">
+          <Shape shapeId="3" name="lod0" nodeId="18" materialIds="6" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="lod1" nodeId="19" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+  </Scene>
+
+</i3D>

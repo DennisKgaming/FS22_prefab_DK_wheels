@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="R17_AW305.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.4"/>
+  </Asset>
+
+  <Files>
+    <File fileId="3" filename="$data/shaders/vehicleShader.xml"/>
+    <File fileId="2" filename="AW305_normal.png"/>
+    <File fileId="1" filename="AW305_normal_colored.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="AW305_mat" materialId="5" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.252 -0.428 0.5 0.05"/>
+    </Material>
+    <Material name="AW305_mat5" materialId="6" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.252 -0.439 0.5 0.05"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="R17_AW305.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="_380_55_17_" clipDistance="1000" nodeId="14">
+        <Shape shapeId="1" name="left" clipDistance="1000" nodeId="15" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="2" name="right" clipDistance="1000" nodeId="16" materialIds="5" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="_480_45_17_" clipDistance="1000" nodeId="17">
+        <Shape shapeId="3" name="left" clipDistance="1000" nodeId="18" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="4" name="right" clipDistance="1000" nodeId="19" materialIds="6" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="_215_75_17_" clipDistance="1000" nodeId="20">
+        <Shape shapeId="5" name="left" clipDistance="1000" nodeId="21" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="6" name="right" clipDistance="1000" nodeId="22" materialIds="5" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+  </Scene>
+
+</i3D>

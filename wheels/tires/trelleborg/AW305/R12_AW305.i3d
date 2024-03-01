@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="R12_AW305.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.4"/>
+  </Asset>
+
+  <Files>
+    <File fileId="3" filename="$data/shaders/vehicleShader.xml"/>
+    <File fileId="2" filename="AW305_normal.png"/>
+    <File fileId="1" filename="AW305_normal_colored.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="AW305_mat" materialId="5" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.194 -0.363 0.5 0.05"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="R12_AW305.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="_10_80_12_" clipDistance="1000" nodeId="9">
+        <Shape shapeId="1" name="left" clipDistance="1000" nodeId="10" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="2" name="right" clipDistance="1000" nodeId="11" materialIds="5" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+  </Scene>
+
+</i3D>

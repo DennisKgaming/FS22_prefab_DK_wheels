@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<wheel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../shared/xml/schema/wheel.xsd">
+    <brand>TRELLEBORG</brand>
+    <name>T404</name>
+    <default>
+        <physics radius="0.615" width="0.56" mass="0.145" tireType="mud" frictionScale="1.60" maxLongStiffness="9" maxLatStiffness="110" maxLatStiffnessLoad="2" />
+        <tire filename="wheels/tires/trelleborg/T404/R22_5_T404.i3d" nodeLeft="4|0" nodeRight="4|0" maxDeformation="0.066" sideDeformOffset="0.980" isCareWheel="false" tireTrackAtlasIndex="3" />
+        <outerRim filename="$data/shared/wheels/rims/rim001.i3d" node="0|0" widthAndDiam="16 22.5" />
+        <innerRim filename="$data/shared/wheels/rims/rim001.i3d" nodeLeft="2|0" nodeRight="2|1" widthAndDiam="16 22.5" />
+    </default>
+</wheel>

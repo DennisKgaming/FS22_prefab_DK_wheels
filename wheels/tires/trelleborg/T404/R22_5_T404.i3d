@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="R22_5_T404.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.4"/>
+  </Asset>
+
+  <Files>
+    <File fileId="3" filename="$data/shaders/vehicleShader.xml"/>
+    <File fileId="2" filename="$data/shared/wheels/tires/trelleborg/T404/T404_normal.png"/>
+    <File fileId="1" filename="T404_normal_colored.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="T404_mat" materialId="5" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.327 -0.582 0.5 0.05"/>
+    </Material>
+    <Material name="T404_mat48" materialId="6" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.323 -0.503 0.5 0.05"/>
+    </Material>
+    <Material name="T404_mat49" materialId="7" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.328 -0.532 0.5 0.05"/>
+    </Material>
+    <Material name="T404_mat50" materialId="8" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.325 -0.585 0.5 0.05"/>
+    </Material>
+    <Material name="T404_mat51" materialId="9" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.328 -0.51 0.5 0.05"/>
+    </Material>
+    <Material name="T404_mat52" materialId="10" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.326 -0.616 0.5 0.05"/>
+    </Material>
+    <Material name="T404_mat53" materialId="11" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.328 -0.587 0.5 0.05"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="R22_5_T404.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="_400_55_22_5_" clipDistance="1000" nodeId="27">
+        <TransformGroup name="lod" clipDistance="600" nodeId="28" lodDistance="0 25">
+          <Shape shapeId="1" name="lod0" clipDistance="1000" nodeId="29" materialIds="6" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="lod1" clipDistance="1000" nodeId="30" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="_500_45_22_5_" clipDistance="1000" nodeId="31">
+        <TransformGroup name="lod" clipDistance="600" nodeId="32" lodDistance="0 25">
+          <Shape shapeId="3" name="lod0" clipDistance="1000" nodeId="33" materialIds="9" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="lod1" clipDistance="1000" nodeId="34" materialIds="9" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="_500_60_22_5_" clipDistance="1000" nodeId="35">
+        <TransformGroup name="lod" clipDistance="600" nodeId="36" lodDistance="0 25">
+          <Shape shapeId="5" name="lod0" clipDistance="1000" nodeId="37" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="lod1" clipDistance="1000" nodeId="38" materialIds="8" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="_560_45_22_5_" clipDistance="1000" nodeId="39">
+        <TransformGroup name="lod" clipDistance="600" nodeId="40" lodDistance="0 25">
+          <Shape shapeId="7" name="lod0" clipDistance="1000" nodeId="41" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="8" name="lod1" clipDistance="1000" nodeId="42" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="_560_60_22_5_" clipDistance="1000" nodeId="43">
+        <TransformGroup name="lod" clipDistance="600" nodeId="44" lodDistance="0 25">
+          <Shape shapeId="9" name="lod0" clipDistance="1000" nodeId="45" materialIds="10" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="10" name="lod1" clipDistance="1000" nodeId="46" materialIds="10" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="_600_50_22_5_" clipDistance="1000" nodeId="47">
+        <TransformGroup name="lod" clipDistance="600" nodeId="48" lodDistance="0 25">
+          <Shape shapeId="11" name="lod0" clipDistance="1000" nodeId="49" materialIds="11" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="12" name="lod1" clipDistance="1000" nodeId="50" materialIds="11" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="_710_40_22_5_" clipDistance="1000" nodeId="51">
+        <TransformGroup name="lod" clipDistance="600" nodeId="52" lodDistance="0 25">
+          <Shape shapeId="13" name="lod0" clipDistance="1000" nodeId="53" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="14" name="lod1" clipDistance="1000" nodeId="54" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+  </Scene>
+
+</i3D>

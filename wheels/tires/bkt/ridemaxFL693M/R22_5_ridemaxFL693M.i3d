@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="R22_5_ridemaxFL693M.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.4"/>
+  </Asset>
+
+  <Files>
+    <File fileId="3" filename="$data/shaders/vehicleShader.xml"/>
+    <File fileId="2" filename="ridemaxFL693M_normal.png"/>
+    <File fileId="1" filename="ridemaxFL693M_normal_colored.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="ridemaxFL693M_mat" materialId="5" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.333921 -0.511 0.5 0.1"/>
+    </Material>
+    <Material name="ridemaxFL693M_mat178" materialId="6" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.341306 -0.586 0.5 0.1"/>
+    </Material>
+    <Material name="ridemaxFL693M_mat179" materialId="7" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.337637 -0.538 0.5 0.1"/>
+    </Material>
+    <Material name="ridemaxFL693M_mat180" materialId="8" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.342958 -0.59 0.5 0.1"/>
+    </Material>
+    <Material name="ridemaxFL693M_mat181" materialId="9" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.34623 -0.622 0.5 0.1"/>
+    </Material>
+    <Material name="ridemaxFL693M_mat182" materialId="10" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.349811 -0.663 0.5 0.1"/>
+    </Material>
+    <Material name="ridemaxFL693M_mat183" materialId="11" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.341335 -0.586 0.5 0.1"/>
+    </Material>
+    <Material name="ridemaxFL693M_mat184" materialId="12" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.344948 -0.611 0.5 0.1"/>
+    </Material>
+    <Material name="ridemaxFL693M_mat185" materialId="13" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.336142 -0.535 0.5 0.1"/>
+    </Material>
+    <Material name="ridemaxFL693M_mat186" materialId="14" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.343004 -0.606 0.5 0.1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="R22_5_ridemaxFL693M.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="ridemaxFL693M_500_45R22_5" nodeId="36">
+        <TransformGroup name="lod" clipDistance="600" nodeId="37" lodDistance="0 25">
+          <Shape shapeId="1" name="lod0" nodeId="38" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="lod1" nodeId="39" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="ridemaxFL693M_500_60R22_5" nodeId="40">
+        <TransformGroup name="lod" clipDistance="600" nodeId="41" lodDistance="0 25">
+          <Shape shapeId="3" name="lod0" nodeId="42" materialIds="6" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="lod1" nodeId="43" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="ridemaxFL693M_560_45R22_5" nodeId="44">
+        <TransformGroup name="lod" clipDistance="600" nodeId="45" lodDistance="0 25">
+          <Shape shapeId="5" name="lod0" nodeId="46" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="lod1" nodeId="47" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="ridemaxFL693M_560_55R22_5" nodeId="48">
+        <TransformGroup name="lod" clipDistance="600" nodeId="49" lodDistance="0 25">
+          <Shape shapeId="7" name="lod0" nodeId="50" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="8" name="lod1" nodeId="51" materialIds="8" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="ridemaxFL693M_560_60R22_5" nodeId="52">
+        <TransformGroup name="lod" clipDistance="600" nodeId="53" lodDistance="0 25">
+          <Shape shapeId="9" name="lod0" nodeId="54" materialIds="9" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="10" name="lod1" nodeId="55" materialIds="9" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="ridemaxFL693M_580_65R22_5" nodeId="56">
+        <TransformGroup name="lod" clipDistance="600" nodeId="57" lodDistance="0 25">
+          <Shape shapeId="11" name="lod0" nodeId="58" materialIds="10" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="12" name="lod1" nodeId="59" materialIds="10" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="ridemaxFL693M_600_50R22_5" nodeId="60">
+        <TransformGroup name="lod" clipDistance="600" nodeId="61" lodDistance="0 25">
+          <Shape shapeId="13" name="lod0" nodeId="62" materialIds="11" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="14" name="lod1" nodeId="63" materialIds="11" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="ridemaxFL693M_650_50R22_5" nodeId="64">
+        <TransformGroup name="lod" clipDistance="600" nodeId="65" lodDistance="0 25">
+          <Shape shapeId="15" name="lod0" nodeId="66" materialIds="12" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="16" name="lod1" nodeId="67" materialIds="12" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="ridemaxFL693M_710_35R22_5" nodeId="68">
+        <TransformGroup name="lod" clipDistance="600" nodeId="69" lodDistance="0 25">
+          <Shape shapeId="17" name="lod0" nodeId="70" materialIds="13" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="18" name="lod1" nodeId="71" materialIds="13" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="ridemaxFL693M_710_45R22_5" nodeId="72">
+        <TransformGroup name="lod" clipDistance="600" nodeId="73" lodDistance="0 25">
+          <Shape shapeId="19" name="lod0" nodeId="74" materialIds="14" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="20" name="lod1" nodeId="75" materialIds="14" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+  </Scene>
+
+</i3D>

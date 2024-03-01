@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="R42_cereXBib2.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.4"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="cereXBib2_color.png"/>
+    <File fileId="3" filename="$data/shaders/vehicleShader.xml"/>
+    <File fileId="2" filename="$data/shared/wheels/tires/michelin/cereXBib2/cereXBib2_normal.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="cereXBib2_mat" materialId="5" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.568 -0.977 0.5 0.05"/>
+    </Material>
+    <Material name="cereXBib2_mat1" materialId="6" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.569 -1.021 0.5 0.05"/>
+    </Material>
+    <Material name="cereXBib2_mat2" materialId="7" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.569 -1.051 0.5 0.05"/>
+    </Material>
+    <Material name="cereXBib2_mat3" materialId="8" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.571 -1.096 0.5 0.05"/>
+    </Material>
+    <Material name="cereXBib2_mat4" materialId="9" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.569 -1.076 0.5 0.05"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="R42_cereXBib2.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="_VF_520_85_R42_CFO_" nodeId="16">
+        <Shape shapeId="1" name="shape25" clipDistance="300" nodeId="17" materialIds="5" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="_VF_580_85_R42_CFO_" nodeId="18">
+        <Shape shapeId="2" name="shape26" clipDistance="300" nodeId="19" materialIds="6" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="_VF_710_70_R42_CFO_" nodeId="20">
+        <Shape shapeId="3" name="shape27" clipDistance="300" nodeId="21" materialIds="7" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="_IF_800_70_R42_CFO_" nodeId="22">
+        <Shape shapeId="4" name="shape28" clipDistance="300" nodeId="23" materialIds="8" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="_VF_900_60_R42_CFO_" nodeId="24">
+        <Shape shapeId="5" name="shape30" clipDistance="300" nodeId="25" materialIds="9" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+  </Scene>
+
+</i3D>

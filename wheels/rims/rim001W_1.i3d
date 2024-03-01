@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="rim001" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.3"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="$data/shaders/vehicleShader.xml"/>
+    <File fileId="2" filename="$data/shared/default_normal.png"/>
+    <File fileId="3" filename="$data/shared/wheels/rims/rim001_vmask.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="rim001_mat" materialId="4" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="rim_colorMask">
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.294 0.294 0.294 0"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="widthAndDiam" value="12 40 0 0"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="rim001W_1.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="w" clipDistance="800" nodeId="14">
+        <Shape shapeId="1" name="shape" clipDistance="800" nodeId="15" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="dw" clipDistance="800" nodeId="16">
+        <Shape shapeId="2" name="shape" clipDistance="800" nodeId="17" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="w_inner" clipDistance="800" nodeId="18">
+        <Shape shapeId="3" name="w_innerLeft" clipDistance="800" nodeId="19" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="4" name="w_innerRight" clipDistance="800" nodeId="20" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="dw_inner" clipDistance="800" nodeId="21">
+        <Shape shapeId="5" name="dw_innerLeft" clipDistance="800" nodeId="22" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="6" name="dw_innerRight" clipDistance="800" nodeId="23" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="dw_inner_hole" clipDistance="800" nodeId="24">
+        <Shape shapeId="7" name="dw_inner_holeLeft" clipDistance="800" nodeId="25" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="8" name="dw_inner_holeRight" clipDistance="800" nodeId="26" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+  </Scene>
+
+</i3D>

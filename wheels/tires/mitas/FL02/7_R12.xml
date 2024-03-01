@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<wheel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../shared/xml/schema/wheel.xsd">
+    <brand>MITAS</brand>
+    <name>FL-02</name>
+    <default>
+        <physics radius="0.343" width="0.21" mass="0.034" tireType="street" frictionScale="1.60" maxLongStiffness="8" maxLatStiffness="100" maxLatStiffnessLoad="2" />
+        <tire filename="wheels/tires/mitas/FL02/R12_FL02.i3d" nodeLeft="0|0" nodeRight="0|0" maxDeformation="0.038" sideDeformOffset="0.945" isCareWheel="false" tireTrackAtlasIndex="1" />
+        <outerRim filename="$data/shared/wheels/rims/rim001.i3d" node="0|0" widthAndDiam="10 12" scale="0.5 1 1" />
+        <innerRim filename="$data/shared/wheels/rims/rim001.i3d" nodeLeft="2|0" nodeRight="2|1" widthAndDiam="3 12" scale="0.4 1 1" />
+    </default>
+</wheel>

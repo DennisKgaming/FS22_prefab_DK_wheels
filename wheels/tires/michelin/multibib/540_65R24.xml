@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<wheel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../shared/xml/schema/wheel.xsd">
+    <brand>MICHELIN</brand>
+    <name>MULTIBIB</name>
+    <default>
+        <physics radius="0.656" width="0.54" mass="0.179" tireType="mud" frictionScale="1.60" maxLongStiffness="9" maxLatStiffness="110" maxLatStiffnessLoad="2" />
+        <tire filename="wheels/tires/michelin/multibib/R24_multibib.i3d" nodeLeft="3|0" nodeRight="3|0" maxDeformation="0.07" sideDeformOffset="0.973" isCareWheel="false" tireTrackAtlasIndex="0" />
+        <outerRim filename="$data/shared/wheels/rims/rim001.i3d" node="1|0" widthAndDiam="16 24" />
+        <innerRim filename="$data/shared/wheels/rims/rim001.i3d" nodeLeft="3|0" nodeRight="3|1" widthAndDiam="16 24" />
+    </default>
+    <configurations>
+        <configuration id="dual" >
+            <innerRim filename="-" />
+        </configuration>
+    </configurations>
+</wheel>

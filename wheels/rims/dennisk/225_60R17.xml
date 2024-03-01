@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<wheel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../shared/xml/schema/wheel.xsd">
+    <brand>CONTINENTAL</brand>
+    <name>TerrainContact™ H/T</name>
+    <default>
+        <physics radius="0.3" width="0.226" mass="0.025" tireType="street" frictionScale="1.60" maxLongStiffness="8" maxLatStiffness="100" maxLatStiffnessLoad="2" />
+        <tire filename="wheels/rims/dennisk/wheel.i3d" node="0|0"  maxDeformation="0.01" sideDeformOffset="0.969" isCareWheel="true" tireTrackAtlasIndex="4" />
+        <outerRim filename="wheels/rims/dennisk/wheel.i3d" nodeLeft="0|2"   scale="0.55 0.35 0.35" />
+        <innerRim filename="wheels/rims/dennisk/wheel.i3d" nodeLeft="0|1" nodeRight="0|3"  scale="1 1 1" />
+    </default>
+</wheel>

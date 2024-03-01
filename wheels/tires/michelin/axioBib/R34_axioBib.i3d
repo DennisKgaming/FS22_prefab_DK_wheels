@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="R34_axioBib.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.4"/>
+  </Asset>
+
+  <Files>
+    <File fileId="3" filename="$data/shaders/vehicleShader.xml"/>
+    <File fileId="1" filename="axioBib.dds"/>
+    <File fileId="2" filename="axioBib_normal.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="axioBib_mat405" materialId="5" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.51657 -0.768 0.5 0.1"/>
+    </Material>
+    <Material name="axioBib_mat406" materialId="6" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.527797 -0.8305 0.5 0.1"/>
+    </Material>
+    <Material name="axioBib_mat407" materialId="7" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.533301 -0.8605 0.5 0.1"/>
+    </Material>
+    <Material name="axioBib_mat408" materialId="8" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="-0.531157 -0.848 0.5 0.1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="R34_axioBib.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="axioBib_480_70R34" nodeId="18">
+        <TransformGroup name="lod" clipDistance="600" nodeId="19" lodDistance="0 25">
+          <Shape shapeId="1" name="lod0" nodeId="20" materialIds="5" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="lod1" nodeId="21" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="axioBib_IF_650_60R34" nodeId="22">
+        <TransformGroup name="lod" clipDistance="600" nodeId="23" lodDistance="0 25">
+          <Shape shapeId="3" name="lod0" nodeId="24" materialIds="6" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="lod1" nodeId="25" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="axioBib_IF_650_65R34" nodeId="26">
+        <TransformGroup name="lod" clipDistance="600" nodeId="27" lodDistance="0 25">
+          <Shape shapeId="5" name="lod0" nodeId="28" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="lod1" nodeId="29" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="axioBib_IF_710_60R34" nodeId="30">
+        <TransformGroup name="lod" clipDistance="600" nodeId="31" lodDistance="0 25">
+          <Shape shapeId="7" name="lod0" nodeId="32" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="8" name="lod1" nodeId="33" materialIds="8" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+  </Scene>
+
+</i3D>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<wheel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../shared/xml/schema/wheel.xsd">
+    <brand>MICHELIN</brand>
+    <name>AXIOBIB2</name>
+    <default>
+        <physics radius="1.032" width="0.8" mass="0.364" tireType="mud" frictionScale="1.60" maxLongStiffness="12" maxLatStiffness="140" maxLatStiffnessLoad="2" />
+        <tire filename="wheels/tires/michelin/axioBib2/R38_axioBib2.i3d" nodeLeft="2|0" nodeRight="2|0" maxDeformation="0.11" sideDeformOffset="0.946" isCareWheel="false" tireTrackAtlasIndex="0" />
+        <outerRim filename="$data/shared/wheels/rims/rim001.i3d" node="1|0" widthAndDiam="27 38" />
+        <innerRim filename="$data/shared/wheels/rims/rim001.i3d" nodeLeft="3|0" nodeRight="3|1" widthAndDiam="27 38" />
+    </default>
+    <configurations>
+        <configuration id="dual" >
+            <innerRim filename="-" />
+        </configuration>
+        <configuration id="dual_rim12" >
+            <innerRim filename="$data/shared/wheels/rims/rim012.i3d" nodeLeft="0|0" nodeRight="0|1" widthAndDiam="27 38" />
+        </configuration>
+        <configuration id="dual_rim12_weight7" >
+            <innerRim filename="$data/shared/wheels/rims/rim012.i3d" nodeLeft="0|0" nodeRight="0|1" widthAndDiam="27 38" />
+            <additional filename="$data/shared/wheels/weights/weight007.i3d" nodeLeft="0|0" nodeRight="0|1" offset="-0.06" scale="0.97 0.97 0.97" mass="1.0" />
+        </configuration>
+        <configuration id="weight1" >
+            <additional filename="$data/shared/wheels/weights/weight001.i3d" nodeLeft="1|0" nodeRight="1|1" offset="0.07" scale="0.8 0.85 0.85" mass="0.8" />
+        </configuration>
+        <configuration id="weight2" >
+            <additional filename="$data/shared/wheels/weights/weight002.i3d" nodeLeft="1|0" nodeRight="1|1" offset="0.0" scale="0.8 0.7 0.7" mass="0.8" />
+        </configuration>
+        <configuration id="weight3" >
+            <additional filename="$data/shared/wheels/weights/weight003.i3d" nodeLeft="0|0" nodeRight="0|1" offset="0.05" scale="0.65 0.85 0.85" mass="1.0" />
+        </configuration>
+        <configuration id="weight4" >
+            <additional filename="$data/shared/wheels/weights/weight004.i3d" nodeLeft="0|0" nodeRight="0|1" offset="0.02" scale="0.75 0.85 0.85" mass="1.0" />
+        </configuration>
+        <configuration id="weight5" >
+            <additional filename="$data/shared/wheels/weights/weight005.i3d" nodeLeft="0|0" nodeRight="0|1" offset="0.01" scale="0.75 1.0 1.0" mass="1.0" />
+        </configuration>
+        <configuration id="weight6" >
+            <additional filename="$data/shared/wheels/weights/weight006.i3d" nodeLeft="0|1" nodeRight="0|0" offset="0.0" scale="1.1 1 1" mass="1.0" />
+        </configuration>
+    </configurations>
+</wheel>

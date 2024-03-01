@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Humbaur" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.2"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="$data/shaders/vehicleShader.xml"/>
+    <File fileId="11" filename="$data/shared/default_normal.dds"/>
+    <File fileId="12" filename="$data/shared/wheels/rims/rim001_vmask.png"/>
+    <File fileId="2" filename="$data/shared/wheels/tires/continental/terrainContactHT/terrainContactHT_normal.png"/>
+    <File fileId="3" filename="$data/shared/wheels/tires/continental/terrainContactHT/terrainContactHT_vmask.png"/>
+    <File fileId="9" filename="rim_normal.dds"/>
+    <File fileId="10" filename="rim_vmask.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="Material.020" materialId="4" diffuseColor="0.8 0.8 0.8 1" customShaderId="4" customShaderVariation="colorMask">
+      <Normalmap fileId="9"/>
+      <Glossmap fileId="10"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.2 0.2 0.2 0"/>
+      <CustomParameter name="colorMat1" value="1 1 1 3"/>
+      <CustomParameter name="colorMat2" value="0 0 0 16"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="rim001_mat" materialId="5" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="rim_colorMask">
+      <Normalmap fileId="11"/>
+      <Glossmap fileId="12"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.294 0.294 0.294 0"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="widthAndDiam" value="12 40 0 0"/>
+    </Material>
+    <Material name="terrainContactHT_mat3" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="tirePressureDeformation">
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <CustomParameter name="RDT" value="0 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="morphPosition" value="-0.24 -0.392 0.5 0.05"/>
+      <CustomParameter name="prevMorphPosition" value="-0.45 -0.915 0.5 0.1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="wheel.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="_265_70R16_" nodeId="15">
+        <TransformGroup name="lod" clipDistance="600" nodeId="16" lodDistance="0 25">
+          <Shape shapeId="1" name="lod0" clipDistance="1000" nodeId="17" materialIds="6" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="2" name="lod1" clipDistance="1000" nodeId="18" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <Shape shapeId="3" name="Rim" translation="0.083104 0 0" nodeId="19" materialIds="4,4,4" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="4" name="shape" translation="0.00140997 0 0" scale="0.55 0.35 0.35" clipDistance="800" nodeId="20" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="5" name="Rim1" translation="0.083104 0 0" nodeId="25" materialIds="4,4,4" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+  </Scene>
+
+</i3D>
